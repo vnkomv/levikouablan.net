@@ -38,8 +38,8 @@ pygmentscodefencesguesssyntax = true
   url = "https://github.com/vnkomv/"
   target = "_blank"
 [[params.social]]
-  name = "Gitlab"
   icon = "fa fa-gitlab fa-2x"
+  name = "Gitlab"
   weight = 2
   url = "https://gitlab.com/vnkomv/"
   target = "_blank"
