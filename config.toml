@@ -1,0 +1,74 @@
+baseURL = "https://levikouablan.net/"
+languageCode = "en-us"
+title = "Désiré-Lévi's logbook"
+theme = "hugo-coder"
+defaultContentLanguage = "en"
+disableComments = true
+
+paginate = 20
+pygmentsstyle = "monokai"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+[params]
+  author = "Désiré-Lévi Kouablan"
+  info = "Senior Software Engineer"
+  description = "Désiré-Lévi's logbook"
+  keywords = "blog,developer,personal,java,go,javascript"
+  avatarurl = "img/me.jpg"
+
+  favicon_32 = "favicon-32x32.png"
+  favicon_16 = "favicon-16x16.png"
+
+  since = 2021
+  enableTwemoji = true
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+[taxonomies]
+  series = "series"
+  tag = "tags"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/vnkomv/"
+  target = "_blank"
+[[params.social]]
+  name = "Gitlab"
+  icon = "fa fa-gitlab fa-2x"
+  weight = 2
+  url = "https://gitlab.com/vnkomv/"
+  target = "_blank"
+[[params.social]]
+  name = "Twitter"
+  icon = "fa fa-twitter fa-2x"
+  weight = 3
+  url = "https://twitter.com/vnkomv/"
+  target = "_blank"
+[[params.social]]
+  name = "Linkedin"
+  icon = "fa fa-linkedin fa-2x"
+  weight = 4
+  url = "https://www.linkedin.com/in/desire-levi-kouablan/"
+  target = "_blank"
+
+[[menu.main]]
+  name = "Now"
+  weight = 1
+  url  = "now/"
+[[menu.main]]
+  name = "About"
+  weight = 2
+  url = "about/"
+[[menu.main]]
+  name = "Blog"
+  weight = 3
+  url  = "blog/"
+[[menu.main]]
+  name = "Projects"
+  weight = 4
+  url  = "projects/"
