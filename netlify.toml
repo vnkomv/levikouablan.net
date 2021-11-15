@@ -4,3 +4,8 @@ command = "hugo --gc --minify --baseURL $URL"
 
 [context.production.environment]
 HUGO_VERSION = "0.88.1"
+
+[[redirects]]
+from = "/npmjs/*"
+to = "/npmjs/"
+status = 200
