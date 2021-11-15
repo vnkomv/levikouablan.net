@@ -1,7 +1,6 @@
 ---
 title: "What am I doing now ?"
 date: 2021-11-15T15:53:10Z
-draft: true
 slug: "now"
 ---
 
