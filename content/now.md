@@ -7,15 +7,11 @@ description: "What Désiré-Lévi Kouablan is focused on right now."
 draft: false
 ---
 
-*Last updated: October 4, 2026
+*Last updated: October 4, 2026*
 
 - Relocating from Abidjan to **Calgary, Alberta**, in November 2026.
 - Looking for **Staff or senior IC roles in backend and platform engineering**, remote or anywhere in Canada. If you're hiring, reach out on [LinkedIn][linkedin] or by [email][email].
 - Writing up case studies of past projects. See [Projects](/projects/).
-- Relocating from Abidjan to **Calgary, Alberta**, in November 2026.
-- Looking for **Staff or senior IC roles in backend and platform engineering**, remote or anywhere in Canada. If you're hiring, reach out on [LinkedIn][linkedin] or by [email][email].
-- Writing up case studies of past projects. See [Projects](/projects/).
-
 
 ---
 
