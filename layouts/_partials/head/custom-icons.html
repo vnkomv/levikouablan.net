@@ -1,0 +1,8 @@
+{{/* Overrides the theme partial: the site has no SVG favicon or Safari mask icon, so those links are omitted. */}}
+<link rel="icon" href="{{ "favicon.ico" | relURL }}" sizes="any">
+<link rel="icon" type="image/png" href="{{ .Site.Params.favicon_32 | relURL }}" sizes="32x32">
+<link rel="icon" type="image/png" href="{{ .Site.Params.favicon_16 | relURL }}" sizes="16x16">
+
+<link rel="apple-touch-icon" sizes="180x180" href="{{ .Site.Params.touchicon | relURL }}">
+
+<link rel="manifest" href="{{ "site.webmanifest" | relURL }}">
