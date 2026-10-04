@@ -23,6 +23,9 @@ enableRobotsTXT = true
   favicon_16 = "favicon-16x16.png"
   touchicon = "apple-touch-icon.png"
 
+  # Default social preview (Open Graph / Twitter card). Pages can override with `images` in front matter.
+  images = ["images/og-default.png"]
+
   since = 2021
   enableEmoji = true
 
