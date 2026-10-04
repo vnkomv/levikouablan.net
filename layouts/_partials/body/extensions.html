@@ -1,0 +1,12 @@
+{{/*
+  Overrides the theme's extension point, which occurs just before the end of each page's <body> tag.
+*/}}
+{{ if .Store.Get "hasMermaid" }}
+<script type="module">
+  import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@11.17.2/dist/mermaid.esm.min.mjs";
+  const body = document.body.classList;
+  const dark = body.contains("colorscheme-dark") ||
+    (body.contains("colorscheme-auto") && window.matchMedia("(prefers-color-scheme: dark)").matches);
+  mermaid.initialize({ startOnLoad: true, theme: dark ? "dark" : "default" });
+</script>
+{{ end }}
