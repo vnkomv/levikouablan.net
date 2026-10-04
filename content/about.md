@@ -1,16 +1,13 @@
 ---
 title: "About"
 date: 2021-11-14T20:22:17Z
+lastmod: 2026-10-04
 slug: "about"
+description: "Désiré-Lévi Kouablan, Staff Software Engineer / Technical Lead in backend systems and platform engineering."
+draft: true # DRAFT for review, drafted from the résumé. Set to false (or remove) once approved.
 ---
 
-## Who am I
-
-My name is Désiré-Lévi Kouablan and I'm a software engineer from the city of Abidjan, Côte d'Ivoire, in Africa. This place is my logbook and where I share my experience and work in my journey toward being an exceptional software engineer. I love to build or participate in building quality products and teams at scale which will make a true difference and, I hope, empower users.
-
-
-## What I do
-
-I've spend some few years building things, other few running and automating other things. Now, I want to focus on building & running more complex, impactful and bigger software that feel easy to use. And I try to leverage opensource to that.
-
-
+I'm Désiré-Lévi Kouablan, a Staff Software Engineer and technical lead from Abidjan, Côte d'Ivoire, with more than 12 years of designing and building backend systems, engineering platforms and cloud infrastructure automation for banking, insurance, utilities and government.
+My core stack is Java and Spring Boot, and most of my work has been in event-driven systems, messaging, CI/CD and observability, often as self-service platforms that other engineers build on.
+I have built engineering teams and departments from the ground up while staying hands-on in the code, most recently taking a stalled national government program in Guinea from zero to production in eight months with a team of five.
+I'm a Canadian permanent resident and work in both French and English.

@@ -14,9 +14,9 @@ enableRobotsTXT = true
 
 [params]
   author = "Désiré-Lévi Kouablan"
-  info = "Senior Software Engineer"
-  description = "Désiré-Lévi's logbook"
-  keywords = "blog,developer,personal,java,go,javascript"
+  info = "Staff Software Engineer / Technical Lead"
+  description = "Désiré-Lévi Kouablan, Staff Software Engineer / Technical Lead. Backend systems and platform engineering."
+  keywords = "staff engineer,technical lead,backend,platform engineering,java,spring boot,go,kubernetes"
   avatarURL = "img/me.jpg"
 
   favicon_32 = "favicon-32x32.png"
@@ -25,6 +25,8 @@ enableRobotsTXT = true
 
   # Default social preview (Open Graph / Twitter card). Pages can override with `images` in front matter.
   images = ["images/og-default.png"]
+
+  customCSS = ["css/projects.css"]
 
   since = 2021
   enableEmoji = true
@@ -53,7 +55,7 @@ enableRobotsTXT = true
   name = "Twitter"
   icon = "fa-brands fa-x-twitter fa-2x"
   weight = 3
-  url = "https://twitter.com/vnkomv/"
+  url = "https://x.com/vnkomv/"
   target = "_blank"
 [[params.social]]
   name = "Linkedin"
@@ -70,11 +72,6 @@ enableRobotsTXT = true
   name = "About"
   weight = 2
   url = "about/"
-[[menu.main]]
-  name = "Blog"
-  weight = 3
-  url  = "blog/"
-[[menu.main]]
-  name = "Projects"
-  weight = 4
-  url  = "projects/"
+
+# Blog and Projects are hidden until they have published content.
+# Re-add them with weight 3 and 4 respectively.
