@@ -28,7 +28,9 @@
 	"extensions": [
 		"golang.Go",
 		"budparr.language-hugo-vscode",
-		"bungcip.better-toml"
+		"Anthropic.claude-code",
+		"tamasfe.even-better-toml",
+		"eamodio.gitlens"
 	],
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
