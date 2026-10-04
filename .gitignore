@@ -6,4 +6,4 @@
 # Executable may be added to repository
 hugo.exe
 hugo.darwin
-hugo.linux
+hugo.linux.hugo_build.lock

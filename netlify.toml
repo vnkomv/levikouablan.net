@@ -2,10 +2,9 @@
 publish = "public"
 command = "hugo --gc --minify"
 
-[context.production.environment]
-HUGO_VERSION = "0.88.1"
+[build.environment]
+HUGO_VERSION = "0.167.0"
 
-[[redirects]]
-from = "/npmjs/*"
-to = "/npmjs/"
-status = 200
+# Previews use their own URL and include drafts, so work in progress can be reviewed before merging.
+[context.deploy-preview]
+command = "hugo --gc --minify --buildDrafts --baseURL $DEPLOY_PRIME_URL"
